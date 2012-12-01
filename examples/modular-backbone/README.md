@@ -12,7 +12,7 @@ $ node r.js -o build.js
 
 see ([http://requirejs.org/docs/optimization.html](http://requirejs.org/docs/optimization.html)) to learn how to create build.js file and use node to run r.js
 
-Once you are finished developing your application, you will want to use r.js to minify and concatenate all the js files into one js which will result in one http request instead of multiple ones for each js file in your project. If you look at index-prod.html, you will notice there is a single minified/concatendated js file instead of the require pattern which you'll use as you develop. 
+Once you're finished developing your application, you'll want to use r.js to minify and concatenate all the js files into one js file which will result in one http request instead of multiple ones for each js file in your project. If you look at index-prod.html vs index.html, you will notice there is a single minified/concatendated js file instead of the require pattern which you'll use as you develop. 
 
 Thomas Davis - [@neutralthoughts](http://twitter.com/neutralthoughts) - Twitter
 
