@@ -8,6 +8,8 @@ This tutorial will get you started on combining <a href="http://backbonejs.org/"
 
 # How to run r.js and optimize this example
 
+Open the terminal and navigate to this directory: /examples/modular-backbone/js/. From within this "js" directory, run:
+
 $ node r.js -o build.js
 
 see ([http://requirejs.org/docs/optimization.html](http://requirejs.org/docs/optimization.html)) to learn how to create build.js file and use node to run r.js
