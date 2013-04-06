@@ -7,7 +7,7 @@ define([
   var MessagesCollection = Backbone.Collection.extend({
     model: MessageModel,
       url: 'http://localhost:8888/messages'
-      //url: 'http://backbonetutorials.nodejitsu.com/messages'
+      //url: 'http://backbonetutorials.jit.su/messages'
   });
 
   return MessagesCollection;
